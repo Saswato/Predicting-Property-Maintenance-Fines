@@ -9,6 +9,10 @@ train.csv - the training set (all tickets issued 2004-2011)
 # Data fields
 [train.csv](https://drive.google.com/file/d/1u0mnYEoKCAQoYrX9takG_cQ_biOE6DVe/view?usp=sharing) {Find data here}
 
+        ticket_id - unique identifier for tickets
+        agency_name - Agency that issued the ticket
+        inspector_name - Name of inspector that issued the ticket
+        violator_name - Name of the person/organization that the ticket was issued to	
 	violation_street_number, violation_street_name, violation_zip_code - Address where the violation occurred
 	mailing_address_str_number, mailing_address_str_name, city, state, zip_code, non_us_str_code, country - Mailing address of the violator
 	ticket_issued_date - Date and time the ticket was issued

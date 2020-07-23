@@ -4,10 +4,10 @@ Blight violations are issued by the city to individuals who allow their properti
 
 The first step in answering this question is understanding when and why a resident might fail to comply with a blight ticket. This is where predictive modeling comes in. The task is to predict whether a given blight ticket will be paid on time. Each row in these two files corresponds to a single blight ticket, and includes information about when, why, and to whom each ticket was issued. The target variable is compliance, which is True if the ticket was paid early, on time, or within one month of the hearing data, False if the ticket was paid after the hearing date or not at all, and Null if the violator was found not responsible. File descriptions (Use only this data for training your model!)
 
-train.csv - the training set (all tickets issued 2004-2011) test.csv - the test set (all tickets issued 2012-2016)
+train.csv - the training set (all tickets issued 2004-2011) 
 
 # Data fields
-train.csv & test.csv
+train.csv
 
 ticket_id - unique identifier for tickets
 agency_name - Agency that issued the ticket
@@ -27,8 +27,6 @@ discount_amount - discount applied, if any
 clean_up_cost - DPW clean-up or graffiti removal cost
 judgment_amount - Sum of all fines and fees
 grafitti_status - Flag for graffiti violations
-train.csv only
-
 payment_amount - Amount paid, if any
 payment_date - Date payment was made, if it was received
 payment_status - Current payment status as of Feb 1 2017
